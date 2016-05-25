@@ -13,6 +13,7 @@
 		795E87F91CF58FB900EDCF9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795E87F71CF58FB900EDCF9C /* Main.storyboard */; };
 		795E87FB1CF58FB900EDCF9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795E87FA1CF58FB900EDCF9C /* Assets.xcassets */; };
 		795E87FE1CF58FB900EDCF9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795E87FC1CF58FB900EDCF9C /* LaunchScreen.storyboard */; };
+		795E88071CF5926700EDCF9C /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795E88061CF5926700EDCF9C /* NewViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		795E87FA1CF58FB900EDCF9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		795E87FD1CF58FB900EDCF9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		795E87FF1CF58FB900EDCF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		795E88051CF5926700EDCF9C /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		795E88061CF5926700EDCF9C /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				795E87F21CF58FB900EDCF9C /* AppDelegate.m */,
 				795E87F41CF58FB900EDCF9C /* ViewController.h */,
 				795E87F51CF58FB900EDCF9C /* ViewController.m */,
+				795E88051CF5926700EDCF9C /* NewViewController.h */,
+				795E88061CF5926700EDCF9C /* NewViewController.m */,
 				795E87F71CF58FB900EDCF9C /* Main.storyboard */,
 				795E87FA1CF58FB900EDCF9C /* Assets.xcassets */,
 				795E87FC1CF58FB900EDCF9C /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 				795E87F61CF58FB900EDCF9C /* ViewController.m in Sources */,
 				795E87F31CF58FB900EDCF9C /* AppDelegate.m in Sources */,
 				795E87F01CF58FB900EDCF9C /* main.m in Sources */,
+				795E88071CF5926700EDCF9C /* NewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +307,7 @@
 				795E88041CF58FB900EDCF9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
